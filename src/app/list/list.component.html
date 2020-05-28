@@ -1,0 +1,12 @@
+<app-filter></app-filter>
+<ul *ngFor="let person of dataList">
+    <li>FULL NAME: {{person.getFullName()}}</li>
+    <li>AGE: {{person.getAge()}}</li>
+</ul>
+
+
+<hr />
+
+<ul *ngFor= "let taskTitle of taskTitlesList">
+    <li>Task title: {{taskTitle}}</li>
+</ul>
